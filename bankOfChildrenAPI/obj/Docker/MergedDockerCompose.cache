@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  bankofchildrenapi:
+    build:
+      context: D:\cosmosDb\BankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: bankofchildrenapi
+    ports:
+    - 80/tcp
+version: '3.0'

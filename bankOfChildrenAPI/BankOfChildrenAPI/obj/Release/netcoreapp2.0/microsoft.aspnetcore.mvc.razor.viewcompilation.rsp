@@ -1,0 +1,5 @@
+D:\cosmosDb\BankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=BankOfChildrenAPI
+--content-root=D:\cosmosDb\BankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI
+--file=
