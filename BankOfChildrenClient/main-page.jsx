@@ -1,6 +1,9 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import $ from 'jquery';
-import ReactBootstrap from 'react-bootstrap';
+//import bootstrap from 'bootstrap';
+//import 'bootstrap/dist/css/bootstrap.css';
+//import ReactBootstrap from 'react-bootstrap';
 
 
 class MainPage extends React.Component {
@@ -50,13 +53,17 @@ class MainPage extends React.Component {
   render() {
     if (!this.state.ChildrenInformation) return <p>Loading...</p>
     var childInfos = this.state.ChildrenInformation.map(function(child) {
-        return <div className="row" key={child.id}>
-                <div className="col">Name:</div><div className="col">{child.firstName} {child.lastName}</div>
-                <div className="col">Balance</div><div className="col">{child.balance}</div>
+        return <div className="row" key={child.id}>           
+                <div className="col-lg-6 col-sm-6">{child.firstName} {child.lastName}</div>
+                <div className="col-lg-6 col-sm-6">{child.balance}</div>
              </div>;
     });
     return (
-    <div className="table-active">
+    <div>
+       <div className="row thead-dark" key="0"> 
+       <div className="col-lg-6 col-sm-6"> <span style={{fontStyle: "10px", color: "#cccccc" }}>Name:</span></div>
+       <div className="col-lg-6 col-sm-6">  <span style={{fontStyle: "10px", color: "#cccccc" }}>Balance</span></div>
+       </div>
        {childInfos}
     </div>
     );
