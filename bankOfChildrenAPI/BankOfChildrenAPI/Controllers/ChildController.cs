@@ -2,6 +2,7 @@
 using BankOfChildrenAPI.Repositories;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading;
 
 namespace BankOfChildrenAPI.Controllers
 {
@@ -18,7 +19,15 @@ namespace BankOfChildrenAPI.Controllers
         [Route("Account/All")]
         public IActionResult Get()
         {
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            // the code that you want to measure comes here
+           
+           
+
             var persons = _repo.GetItemsFromCollectionAsync().Result;
+
+            watch.Stop();
+            var elapsedMs = watch.ElapsedMilliseconds;
             return Ok(persons);
         }
         [Route("Account/{id}")]
