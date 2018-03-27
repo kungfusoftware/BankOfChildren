@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using BankOfChildrenAPI.Models;
 using BankOfChildrenAPI.Repositories;
-
+using BAH.API.BAHEvents.Models;
 
 namespace BankOfChildrenAPI
 {
@@ -28,6 +28,8 @@ namespace BankOfChildrenAPI
         {
             services.AddSingleton(typeof(IDbCollectionOperationsRepository<ChildModel, string>),
                 typeof(DbCollectionOperationsRepository));
+            services.AddSingleton(typeof(IDbCollectionEventRepository<Event, string>),
+              typeof(EventCollectionOperationsRepository));
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowAll",

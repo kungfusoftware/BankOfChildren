@@ -7,7 +7,7 @@ using System.Threading;
 namespace BankOfChildrenAPI.Controllers
 {
     [Produces("application/json")]
-    [Route("api/BankofChildrenAPI")]
+    [Route("api")]
     [EnableCors("AllowAll")]
     public class ChildController : Controller
     {

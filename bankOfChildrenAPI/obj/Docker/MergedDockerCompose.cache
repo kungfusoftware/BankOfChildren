@@ -5,7 +5,7 @@ networks:
 services:
   bankofchildrenapi:
     build:
-      context: D:\cosmosDb\BankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI
+      context: C:\work\prototype\cosmosDB\bankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI
       dockerfile: Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development

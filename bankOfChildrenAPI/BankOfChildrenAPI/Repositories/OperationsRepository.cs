@@ -28,9 +28,9 @@ namespace BankOfChildrenAPI.Repositories
     public class DbCollectionOperationsRepository : IDbCollectionOperationsRepository<ChildModel, string>
     {
         #region The DocumentDB Endpoint, Key, DatabaseId and CollectionId declaration
-        private static readonly string Endpoint = " https://bill.documents.azure.com:443/";// "https://msabdocdb.documents.azure.com:443/";
-        private static readonly string Key = "gO1IV45va03QXu3eDr1H8MerOJBGXjqJhseVSySHCs0b2ImiwWRD9ZpEp1stOcWPiOEVe0mFMvtk0i9otWoufA==";// "0NvoeaheKa61tq7ZEW0YCL8CwIimuzAh2yv1rgPMqAvvidn82ignPXalMbC117Kx4oA60MK4WopWYgYa4DAOaQ==";
-        private static readonly string DatabaseId = "BankOfChildren";// "PersonalInformationDB";
+        private static readonly string Endpoint = "https://bahdev-events-docdb.documents.azure.com:443/";// "https://msabdocdb.documents.azure.com:443/";
+        private static readonly string Key = "Lwoi41clLwG0jL2M5aQXr36EWLGgB9JT1Bh8Hjhu0GXG3ob21creC6OcU6rC9TXRrcND6jtN1HZj6sm5TQzgCA==";
+        private static readonly string DatabaseId = "ToDoList";// "PersonalInformationDB";
         private static readonly string CollectionId = "Account";// "PersonalInfoCollection";
         private static DocumentClient docClient;
         #endregion

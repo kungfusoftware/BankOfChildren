@@ -9,3 +9,14 @@ D:\cosmosDb\BankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\obj\Release\netco
 D:\cosmosDb\BankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\obj\Release\netcoreapp2.0\BankOfChildrenAPI.AssemblyInfo.cs
 D:\cosmosDb\BankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\obj\Release\netcoreapp2.0\BankOfChildrenAPI.dll
 D:\cosmosDb\BankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\obj\Release\netcoreapp2.0\BankOfChildrenAPI.pdb
+C:\work\prototype\cosmosDB\bankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\bin\Release\netcoreapp2.0\BankOfChildrenAPI.deps.json
+C:\work\prototype\cosmosDB\bankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\bin\Release\netcoreapp2.0\BankOfChildrenAPI.runtimeconfig.json
+C:\work\prototype\cosmosDB\bankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\bin\Release\netcoreapp2.0\BankOfChildrenAPI.runtimeconfig.dev.json
+C:\work\prototype\cosmosDB\bankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\bin\Release\netcoreapp2.0\BankOfChildrenAPI.dll
+C:\work\prototype\cosmosDB\bankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\bin\Release\netcoreapp2.0\BankOfChildrenAPI.pdb
+C:\work\prototype\cosmosDB\bankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\obj\Release\netcoreapp2.0\BankOfChildrenAPI.csprojResolveAssemblyReference.cache
+C:\work\prototype\cosmosDB\bankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\obj\Release\netcoreapp2.0\BankOfChildrenAPI.csproj.CoreCompileInputs.cache
+C:\work\prototype\cosmosDB\bankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\obj\Release\netcoreapp2.0\BankOfChildrenAPI.AssemblyInfoInputs.cache
+C:\work\prototype\cosmosDB\bankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\obj\Release\netcoreapp2.0\BankOfChildrenAPI.AssemblyInfo.cs
+C:\work\prototype\cosmosDB\bankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\obj\Release\netcoreapp2.0\BankOfChildrenAPI.dll
+C:\work\prototype\cosmosDB\bankOfChildren\bankOfChildrenAPI\BankOfChildrenAPI\obj\Release\netcoreapp2.0\BankOfChildrenAPI.pdb
